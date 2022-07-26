@@ -9,7 +9,7 @@ import javax.persistence.Table;
 @Table(name="questions")
 public abstract class Question {
     @Id
-    Integer id;
+    Long id;
 
     @Column
     String text;

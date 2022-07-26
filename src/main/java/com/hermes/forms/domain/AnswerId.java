@@ -4,7 +4,7 @@ import javax.persistence.Embeddable;
 
 @Embeddable
 public class AnswerId {
-    Integer formId;
-    Integer questionId;
+    Long formId;
+    Long questionId;
     String userId;
 }

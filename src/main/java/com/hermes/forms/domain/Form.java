@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Table(name="forms")
 public class Form {
     @Id
-    Integer id;
+    Long id;
 
     @OneToMany
     List<Question> questions;
